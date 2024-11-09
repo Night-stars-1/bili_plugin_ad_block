@@ -1,0 +1,11 @@
+{
+    "manifest_version": 1,
+    "id": "ad_block",
+    "name": "屏蔽推荐流广告",
+    "description": "屏蔽推荐流广告",
+    "injects": {
+        "main": "./src/main.js",
+        "preload": "./src/preload.js",
+        "renderer": "./src/renderer.js"
+    }
+}
